@@ -1,0 +1,15 @@
+<template>
+    <div class="slds-card">
+        <div class="card-content form-content">
+            <div class="form-section">
+                <div class="form-section slds-grid slds-wrap slds-gutters">
+                    <div class="slds-col slds-small-size_1-of-2">
+                        <lightning-input name="username" label="Enter Name" pattern="^[a-zA-Z0-9._-]+$"
+                            variant="label-stacked" type="text" onchange={handleChange}>
+                        </lightning-input>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
